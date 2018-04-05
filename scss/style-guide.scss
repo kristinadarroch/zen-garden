@@ -30,6 +30,7 @@ $secondary-8: #d9d9d9;  // lighter grey
 $secondary-9: white;  // white
 $secondary-10: #f2f2f2;  // darker white
 $secondary-11: #800000; //maroon
+$secondary-12: #8c1919; //lighter maroon
 
 
 $sucess: white;
@@ -80,24 +81,39 @@ header > h1{
 
 .summary{
 	width: 30%;
-	background-color: $secondary-3;
+	background-color: $secondary-4;
 	padding: 30px;
 	margin-top: 5px;
 }
 .preamble{
 	width: 30%;
+	background-color: $secondary-11;
+	padding: 30px;
+	margin-top: 5px;
 }
 .explanation{
-	width: 30%
+	width: 30%;
+	background-color: $secondary-5;
+	padding: 30px;
+	margin-top: 5px;
 }
 .participation{
 	width: 30%;
+	background-color: $secondary-4;
+	padding: 30px;
+	margin-top: 5px;
 }
 .benefits{
 	width: 30%;
+	background-color: $secondary-6;
+	padding: 30px;
+	margin-top: 5px;
 }
 .requirements{
 	width: 30%;
+	background-color: $secondary-12;
+	padding: 30px;
+	margin-top: 5px;
 }
 
 /* --------------------------------
