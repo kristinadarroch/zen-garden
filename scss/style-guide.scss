@@ -41,6 +41,7 @@ $sucess: white;
 // specify like : font-family: 'Montserrat', sans-serif;
 $heading-font: "Limelight", cursive;
 $paragraph-font: 'Montserrat', sans-serif;
+$cursive-script: 'Dancing Script', cursive;
 
 /* --------------------------------
 
@@ -87,10 +88,21 @@ header > h1{
 	margin-top: 5px;
 }
 .preamble{
+	float: right;
 	width: 30%;
 	background-color: $secondary-11;
-	padding: 30px;
+	padding: 90px;
 	margin-top: 5px;
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: $secondary-4;
+	border-width: thick;
+}
+.preamble > p{
+	padding-left: 28px;
+}
+.preamble > h3{
+	padding-left: 28px;
 }
 .explanation{
 	width: 30%;
@@ -186,13 +198,18 @@ header {
 xTypography
 
 -------------------------------- */
-h1, h2, h3{
+h1, h2{
 	font-family: $heading-font;
 	color: $color-2;
 }
+h3{
+	font-family: $cursive-script;
+	font-size: 40px;
+}
 
 p{
-	font-family: $paragraph-font;
+	font-family: $heading-font;
+	font-size: 20px;
 	color: $secondary-6;
 }
 /* --------------------------------
