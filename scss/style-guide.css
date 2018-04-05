@@ -28,24 +28,39 @@ header > h1 {
 
 .summary {
   width: 30%;
-  background-color: #e3c599;
+  background-color: #deb887;
   padding: 30px;
   margin-top: 5px; }
 
 .preamble {
-  width: 30%; }
+  width: 30%;
+  background-color: #800000;
+  padding: 30px;
+  margin-top: 5px; }
 
 .explanation {
-  width: 30%; }
+  width: 30%;
+  background-color: #808080;
+  padding: 30px;
+  margin-top: 5px; }
 
 .participation {
-  width: 30%; }
+  width: 30%;
+  background-color: #deb887;
+  padding: 30px;
+  margin-top: 5px; }
 
 .benefits {
-  width: 30%; }
+  width: 30%;
+  background-color: #a6a6a6;
+  padding: 30px;
+  margin-top: 5px; }
 
 .requirements {
-  width: 30%; }
+  width: 30%;
+  background-color: #8c1919;
+  padding: 30px;
+  margin-top: 5px; }
 
 /* --------------------------------
 
