@@ -116,6 +116,38 @@ header > h1{
 	margin-top: 5px;
 }
 
+
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 200px;
+	height: 110px;
+	background: $secondary-6;
+	position: relative;
+}
+footer:before {
+	content: "";
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 50px solid $secondary-6;
+}
+footer:after {
+	content: "";
+	position: absolute;
+	bottom: -50px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 50px solid $secondary-6;
+}
 /* --------------------------------
 
 xPatterns
