@@ -6,12 +6,43 @@ xBackground
 
 -------------------------------- */
 #css-zen-garden {
-  background-image: url("../assets/branding/gatsby-logo.png");
-  background-repeat: no-repeat; }
+  background-image: url("../assets/branding/gatsby-logo-edited.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
 
 body {
-  /* this is the page background */
-  background-color: #323232; }
+  /* this is the page background */ }
+
+header {
+  background-color: #f3f3f3;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+header > h1 {
+  font-size: 35px;
+  letter-spacing: 5px; }
+
+.summary {
+  width: 30%;
+  background-color: #e3c599;
+  padding: 30px;
+  margin-top: 5px; }
+
+.preamble {
+  width: 30%; }
+
+.explanation {
+  width: 30%; }
+
+.participation {
+  width: 30%; }
+
+.benefits {
+  width: 30%; }
+
+.requirements {
+  width: 30%; }
 
 /* --------------------------------
 
@@ -28,12 +59,13 @@ xNavigation
 xTypography
 
 -------------------------------- */
-h1, h2 {
+h1, h2, h3 {
   font-family: "Limelight", cursive;
   color: #d4a45d; }
 
 p {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  color: #a6a6a6; }
 
 /* --------------------------------
 

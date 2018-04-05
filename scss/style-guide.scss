@@ -45,25 +45,58 @@ xBackground
 
 -------------------------------- */
 
-$logo-image: url("../assets/branding/gatsby-logo.png");
+$logo-image: url("../assets/branding/gatsby-logo-edited.jpg");
 $opacity: .3;
 
 #css-zen-garden{
 	background-image: $logo-image;
 	background-repeat: no-repeat;
-
+	background-position: center;
 }
 
 body{
 	/* this is the page background */
 	// we will use this as our background (the darkest black)
-background-color: $color-1;
+}
+
+header{
+	background-color: $secondary-7;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+header > h1{
+	font-size: 35px;
+	letter-spacing: 5px;
 }
 
 
 .page-wrapper{
 	// background-image: $logo-image;
 
+}
+
+.summary{
+	width: 30%;
+	background-color: $secondary-3;
+	padding: 30px;
+	margin-top: 5px;
+}
+.preamble{
+	width: 30%;
+}
+.explanation{
+	width: 30%
+}
+.participation{
+	width: 30%;
+}
+.benefits{
+	width: 30%;
+}
+.requirements{
+	width: 30%;
 }
 
 /* --------------------------------
@@ -103,13 +136,14 @@ header {
 xTypography
 
 -------------------------------- */
-h1, h2{
+h1, h2, h3{
 	font-family: $heading-font;
 	color: $color-2;
 }
 
 p{
 	font-family: $paragraph-font;
+	color: $secondary-6;
 }
 /* --------------------------------
 
