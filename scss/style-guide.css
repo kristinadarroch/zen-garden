@@ -6,13 +6,9 @@
 xBackground
 
 -------------------------------- */
-#css-zen-garden {
-  background-image: url("../assets/branding/gatsby-logo-edited.jpg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
 body {
-  /* this is the page background */ }
+  /* this is the page background */
+  width: 100%; }
 
 header {
   background-color: #f3f3f3;
@@ -21,13 +17,19 @@ header {
   padding-bottom: 30px; }
 
 header > h1 {
-  font-size: 35px;
-  letter-spacing: 5px; }
+  font-size: 100px;
+  letter-spacing: 10px; }
 
 .summary {
   width: 100%;
   padding: 30px;
   margin-top: 5px; }
+
+.summary > p:nth-child(1) {
+  font-size: 40px; }
+
+.summary > p:nth-child(2) {
+  text-align: center; }
 
 .preamble {
   float: right;
@@ -54,22 +56,43 @@ header > h1 {
 .participation {
   width: 50%;
   border-style: dotted;
+  border-color: #deb887;
   padding-left: 30px;
   margin-top: 60px;
   margin-left: 15px; }
 
 .requirements {
-  width: 30%;
-  padding: 30px;
-  margin-top: 5px; }
+  margin-top: 5px;
+  margin-left: 30px; }
+
+.requirements > h3 {
+  font-size: 70px;
+  text-align: center;
+  color: #800000; }
+
+.benefits {
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: #deb887;
+  width: 40%;
+  float: right;
+  border-radius: 30px; }
 
 footer {
-  margin-top: 50px;
+  margin-top: 170px;
   margin-bottom: 50px;
   width: 200px;
   height: 110px;
   background: #a6a6a6;
-  position: relative; }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 footer:before {
   content: "";
@@ -92,6 +115,11 @@ footer:after {
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   border-top: 50px solid #a6a6a6; }
+
+footer > a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px; }
 
 #zen-benefits > p {
   color: black; }
