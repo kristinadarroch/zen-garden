@@ -6,13 +6,8 @@
 xBackground
 
 -------------------------------- */
-body {
-  /* this is the page background */
-  width: 100%; }
-
 header {
   background-color: #f3f3f3;
-  width: 100%;
   padding-top: 30px;
   padding-bottom: 30px; }
 
@@ -21,7 +16,6 @@ header > h1 {
   letter-spacing: 10px; }
 
 .summary {
-  width: 100%;
   padding: 30px;
   margin-top: 5px; }
 
@@ -41,6 +35,13 @@ header > h1 {
   border-style: dotted;
   border-color: #deb887;
   border-width: thick; }
+  @media (max-width: 1024px) {
+    .preamble {
+      border-radius: 0;
+      float: none;
+      width: 100%;
+      padding: 0;
+      margin: 0; } }
 
 .preamble > p {
   padding-left: 28px; }
@@ -49,9 +50,15 @@ header > h1 {
   padding-left: 28px; }
 
 .explanation {
-  width: 100%;
   padding-left: 30px;
   margin-top: 5px; }
+  @media (max-width: 1024px) {
+    .explanation {
+      border-radius: 0;
+      float: none;
+      width: 100%;
+      padding: 0;
+      margin: 0; } }
 
 .participation {
   width: 50%;
@@ -60,6 +67,13 @@ header > h1 {
   padding-left: 30px;
   margin-top: 60px;
   margin-left: 15px; }
+  @media (max-width: 1024px) {
+    .participation {
+      border-radius: 0;
+      float: none;
+      width: 100%;
+      padding: 5px;
+      margin: 0; } }
 
 .requirements {
   margin-top: 5px;
@@ -134,20 +148,11 @@ xPatterns
 xNavigation
 
 -------------------------------- */
-.wrapper {
+.design-selection ~ li {
   display: flex;
-  justify-content: space-around;
-}
- ul {
-  list-style: none;
-  padding: 0;
-}
+  justify-content: center;
+  flex-direction: column; }
 
-/* --------------------------------
-
-xTypography
-
--------------------------------- */
 h1, h2 {
   font-family: "Limelight", cursive;
   color: #d4a45d; }

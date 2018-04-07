@@ -50,21 +50,10 @@ xBackground
 -------------------------------- */
 
 $logo-image: url("../assets/branding/gatsby-background.jpg");
-$opacity: .3;
 
-#css-zen-garden{
-	// background here
-}
-
-body{
-	/* this is the page background */
-	// we will use this as our background (the darkest black)
-	width: 100%;
-}
 
 header{
 	background-color: $secondary-7;
-	width: 100%;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -74,14 +63,7 @@ header > h1{
 	letter-spacing: 10px;
 }
 
-
-.page-wrapper{
-	// background-image: $logo-image;
-
-}
-
 .summary{
-	width: 100%;
 	padding: 30px;
 	margin-top: 5px;
 }
@@ -101,6 +83,13 @@ header > h1{
 	border-style: dotted;
 	border-color: $secondary-4;
 	border-width: thick;
+	@media (max-width: $M) {
+		border-radius: 0;
+		float: none;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
 }
 .preamble > p{
 	padding-left: 28px;
@@ -109,9 +98,15 @@ header > h1{
 	padding-left: 28px;
 }
 .explanation{
-	width: 100%;
 	padding-left: 30px;
 	margin-top: 5px;
+	@media (max-width: $M) {
+		border-radius: 0;
+		float: none;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
 }
 .participation{
 	width: 50%;
@@ -120,6 +115,13 @@ header > h1{
 	padding-left: 30px;
 	margin-top: 60px;
 	margin-left: 15px;
+	@media (max-width: $M) {
+		border-radius: 0;
+		float: none;
+		width: 100%;
+		padding: 5px;
+		margin: 0;
+	}
 }
 .requirements{
 	margin-top: 5px;
@@ -207,31 +209,6 @@ xNavigation
   justify-content: center;
   flex-direction: column;
 }
-
-header {
-	// background-color: $color-2;
-}
-
-// /* --------------------------------
-//
-// xPage title
-//
-// -------------------------------- */
-//
-// main > h1 {
-// 	color: $color-2;
-//
-// 	@include MQ(L) {
-// 		/* title goes into the header on big devices */
-// 		color: $color-5;
-// 	}
-// }
-//
-/* --------------------------------
-
-xTypography
-
--------------------------------- */
 h1, h2{
 	font-family: $heading-font;
 	color: $color-2;
