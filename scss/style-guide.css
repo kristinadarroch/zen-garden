@@ -47,7 +47,8 @@ header > h1 {
   padding-left: 28px; }
 
 .preamble > h3 {
-  padding-left: 28px; }
+  padding-left: 85px; }
+/*take out if wonky in mobile*/
 
 .explanation {
   padding-left: 30px;
@@ -149,7 +150,10 @@ h1, h2 {
 
 h3 {
   font-family: "Dancing Script", cursive;
-  font-size: 40px; }
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
 
 p {
   font-family: "Limelight", cursive;
