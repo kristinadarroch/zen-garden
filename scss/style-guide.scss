@@ -202,6 +202,12 @@ xNavigation
 
 -------------------------------- */
 
+.design-selection ~ li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 header {
 	// background-color: $color-2;
 }
