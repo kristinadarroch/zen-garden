@@ -138,37 +138,10 @@ footer > a {
 #zen-benefits > p {
   color: black; }
 
-/* --------------------------------
-
-xPatterns
-
--------------------------------- */
-/* --------------------------------
-
-xNavigation
-
--------------------------------- */
 .design-selection ~ li {
   display: flex;
-<<<<<<< HEAD
   justify-content: center;
   flex-direction: column; }
-=======
-  justify-content: space-around;
-}
- ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  border-left: 6px solid green;
-  height: inherit;
-  padding-left: 5px;
-}
-
-/* --------------------------------
->>>>>>> fbe5df06a3b15e06ef8552a44001352806bcb1bb
 
 h1, h2 {
   font-family: "Limelight", cursive;
