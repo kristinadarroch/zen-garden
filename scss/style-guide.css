@@ -25,8 +25,7 @@ header > h1 {
   letter-spacing: 5px; }
 
 .summary {
-  width: 30%;
-  background-color: #deb887;
+  width: 100%;
   padding: 30px;
   margin-top: 5px; }
 
@@ -48,26 +47,19 @@ header > h1 {
   padding-left: 28px; }
 
 .explanation {
-  width: 30%;
-  background-color: #808080;
-  padding: 30px;
+  width: 100%;
+  padding-left: 30px;
   margin-top: 5px; }
 
 .participation {
-  width: 30%;
-  background-color: #deb887;
-  padding: 30px;
-  margin-top: 5px; }
-
-.benefits {
-  width: 30%;
-  background-color: #a6a6a6;
-  padding: 30px;
-  margin-top: 5px; }
+  width: 50%;
+  border-style: dotted;
+  padding-left: 30px;
+  margin-top: 60px;
+  margin-left: 15px; }
 
 .requirements {
   width: 30%;
-  background-color: #8c1919;
   padding: 30px;
   margin-top: 5px; }
 
@@ -101,6 +93,9 @@ footer:after {
   border-right: 100px solid transparent;
   border-top: 50px solid #a6a6a6; }
 
+#zen-benefits > p {
+  color: black; }
+
 /* --------------------------------
 
 xPatterns
@@ -126,8 +121,12 @@ h3 {
 
 p {
   font-family: "Limelight", cursive;
-  font-size: 20px;
-  color: #a6a6a6; }
+  font-size: 20px; }
+
+a {
+  text-decoration: none;
+  color: #808080;
+  font-style: italic; }
 
 /* --------------------------------
 

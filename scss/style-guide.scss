@@ -82,8 +82,7 @@ header > h1{
 }
 
 .summary{
-	width: 30%;
-	background-color: $secondary-4;
+	width: 100%;
 	padding: 30px;
 	margin-top: 5px;
 }
@@ -105,28 +104,24 @@ header > h1{
 	padding-left: 28px;
 }
 .explanation{
-	width: 30%;
-	background-color: $secondary-5;
-	padding: 30px;
+	width: 100%;
+	padding-left: 30px;
 	margin-top: 5px;
 }
 .participation{
+	width: 50%;
+	border-style: dotted;
+	padding-left: 30px;
+	margin-top: 60px;
+	margin-left: 15px;
+}
+.requirements{
 	width: 30%;
-	background-color: $secondary-4;
 	padding: 30px;
 	margin-top: 5px;
 }
 .benefits{
-	width: 30%;
-	background-color: $secondary-6;
-	padding: 30px;
-	margin-top: 5px;
-}
-.requirements{
-	width: 30%;
-	background-color: $secondary-12;
-	padding: 30px;
-	margin-top: 5px;
+	// stuff
 }
 
 
@@ -160,6 +155,10 @@ footer:after {
 	border-left: 100px solid transparent;
 	border-right: 100px solid transparent;
 	border-top: 50px solid $secondary-6;
+}
+
+#zen-benefits > p{
+	color: black;
 }
 /* --------------------------------
 
@@ -210,8 +209,13 @@ h3{
 p{
 	font-family: $heading-font;
 	font-size: 20px;
-	color: $secondary-6;
 }
+a{
+	text-decoration: none;
+	color: $secondary-5;
+	font-style: italic;
+}
+
 /* --------------------------------
 
 xButtons
