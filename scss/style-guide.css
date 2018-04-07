@@ -138,15 +138,10 @@ xNavigation
   display: flex;
   justify-content: space-around;
 }
-/*
-.design-selection li {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  border-style: solid;
-  border-color: black;
+ ul {
+  list-style: none;
+  padding: 0;
 }
-*/
 
 /* --------------------------------
 
