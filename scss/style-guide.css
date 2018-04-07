@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Limelight");
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script");
-/* --------------------------------
-
-xBackground
-
--------------------------------- */
 header {
   background-color: #f3f3f3;
   padding-top: 30px;
@@ -14,6 +9,9 @@ header {
 header > h1 {
   font-size: 100px;
   letter-spacing: 10px; }
+  @media (max-width: 768px) {
+    header > h1 {
+      font-size: 30px; } }
 
 .summary {
   padding: 30px;
@@ -21,6 +19,9 @@ header > h1 {
 
 .summary > p:nth-child(1) {
   font-size: 40px; }
+  @media (max-width: 768px) {
+    .summary > p:nth-child(1) {
+      font-size: 20px; } }
 
 .summary > p:nth-child(2) {
   text-align: center; }
@@ -56,7 +57,7 @@ header > h1 {
     .explanation {
       border-radius: 0;
       float: none;
-      width: 100%;
+      max-width: 100%;
       padding: 0;
       margin: 0; } }
 
@@ -72,7 +73,7 @@ header > h1 {
       border-radius: 0;
       float: none;
       width: 100%;
-      padding: 5px;
+      padding: 0;
       margin: 0; } }
 
 .requirements {
@@ -94,6 +95,15 @@ header > h1 {
   width: 40%;
   float: right;
   border-radius: 30px; }
+  @media (max-width: 1024px) {
+    .benefits {
+      float: none;
+      width: 100%;
+      margin: 0;
+      padding-top: 5px;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 5px; } }
 
 footer {
   margin-top: 170px;
@@ -160,21 +170,6 @@ a {
   color: #808080;
   font-style: italic; }
 
-/* --------------------------------
-
-xButtons
-
--------------------------------- */
-/* --------------------------------
-
-xIcons
-
--------------------------------- */
-/* --------------------------------
-
-xForm
-
--------------------------------- */
 header[role="banner"] {
   margin-left: auto;
   margin-right: auto;
